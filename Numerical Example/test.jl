@@ -108,7 +108,7 @@ T = 5.5
 
 
 #Load collected data
-fname = "$dataDir/SRFromOptimal.hdf5"
+fname = "$dataDir/SRDataFromOptimal.hdf5"
 fid = h5open(fname, "r")
 Λ = read(fid["Lambda"])
 ψQRks = read(fid["psiQRks"])
